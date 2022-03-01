@@ -86,6 +86,6 @@ resource "alicloud_sae_namespace" "default" {
 data "alicloud_sae_namespaces" "default" {	
 	%s
 }
-`, rand, rand,region, rand, strings.Join(pairs, " \n "))
+`, rand, rand, region, rand, strings.Join(pairs, " \n "))
 	return config
 }
